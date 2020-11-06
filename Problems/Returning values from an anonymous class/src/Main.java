@@ -4,8 +4,10 @@ interface Returner {
 
     String returnString();
 
+
     int returnInt();
 }
+
 
 public class Main {
 
