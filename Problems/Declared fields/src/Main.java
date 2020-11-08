@@ -5,6 +5,7 @@ class FieldGetter {
 
     public int getNumberOfFieldsClassDeclares(Class<?> clazz) {
         // Add implementation here
+        return clazz.getDeclaredFields().length;
     }
 
 }
